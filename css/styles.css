@@ -174,3 +174,27 @@ color: var(--primario);
         align-items: center;
     }
 }
+
+.listado{
+
+}
+
+.listado__elemento{
+    box-shadow: 0px 0px 15px 4px rgb(0 0 0 / .30);
+    padding: 2rem;
+    margin-bottom: 5rem;
+    transition: transform .2s; 
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+.listado__heading{
+ font-size: 3rem;
+ color:var(--primario);
+ margin: 0;
+}
+.listado__texto{
+ margin: 0;
+ font-size: 2rem;
+}
