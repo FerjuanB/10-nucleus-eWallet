@@ -36,7 +36,7 @@ img {
     max-width: 100%;
     display: block;
 }
-.contenedor {
+[class$="__contenedor"]{
     max-width: 120rem;
     margin: 0 auto;
     width: 90%;
@@ -70,13 +70,7 @@ img {
         background-size: clamp(100rem, 25vw, 150rem);
     }
 }
-.header__contenedor{
-        max-width: 120rem;
-        margin: 0 auto;
-        width: 90%;
-    
-    
-}
+
 @media (min-width: 768px){
     .header__barra{
         display: flex;
@@ -158,4 +152,13 @@ color: var(--primario);
         padding: 1rem 3rem;
         display: inline-block;
     }
+}
+
+.nucleus{
+    margin-top: 3rem;
+}
+.nucleus__heading{
+    text-align: center;
+    margin-bottom: 5rem;
+
 }
